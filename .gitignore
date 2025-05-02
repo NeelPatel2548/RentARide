@@ -1,0 +1,24 @@
+# PHP
+/vendor/
+.env
+.env.*
+!.env.example
+*.log
+*.cache
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+/uploads/
+/temp_imgs/
+*.sql 

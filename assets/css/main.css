@@ -1,0 +1,379 @@
+			body
+			{
+				font-family:'Poppins',sans-serif;
+			}
+		
+			div,.image,.tabl2
+			{
+				width:102%;
+				margin-left:-10px;
+			}
+			.up
+			{
+				width:102%;
+				background-color:#1b1b1b;
+				opacity:0.7;
+				height:100px;
+				text-align:right;
+				padding:1.6% 4% 0 0;
+				box-sizing:border-box;
+				font-weight:600;
+				position:sticky;
+				top:0;
+				margin-top:-10px;
+				z-index:10;
+				transition:0.5s;
+			}
+			.slides
+			{
+				position:relative;
+				width:100%;
+				z-index: 0;
+				height:auto;
+				top:-105;
+			}
+			table
+			{
+				width:100%;
+				border-collapse:collapse;
+			}
+			input[type=submit]
+			{
+				padding:2vw;
+				border:solid #1b1b1b 2px;
+				border-radius:15px;
+				cursor:pointer;
+				background-color:#1b1b1b;
+				transition:0.3s;
+				font-size:100%;
+				box-shadow:0px 0px 3px 1px #1b1b1b;
+				margin-right:50px;
+			}
+			input[type=submit]:hover
+			{
+				background-color:#1b1b1b;
+				color:white;
+				box-shadow:none;
+			}
+			.copyright
+			{
+				padding:15px 0px 15px 8%;
+				color:#6b6b6b;
+				font-size:100%;
+			}
+			.service
+			{
+				width:100%;
+			}
+			footer
+			{
+				width:102%;
+				margin-left:-10px;
+			}
+			.widget
+			{
+				padding-left:7%;
+			}
+			h1
+			{
+				font-size:3.1vw;
+				text-transform:uppercase;
+				letter-spacing:1.5px;
+				font-family:"Montserrat";
+				margin-bottom:30px;
+			}
+			h3
+			{
+				font-size:1.1vw;
+				font-weight:700;
+				font-family:"Montserrat";
+				margin-bottom:25px;
+				margin-top:50px;
+				text-transform:uppercase;
+				letter-spacing:1.5px;
+				color:#F5B754;
+			}
+			.text
+			{
+				color:#F5B754;
+				font-size:1.1vw;
+				line-height: 1.7;
+				margin-bottom:50px;
+			}
+			.text1
+			{
+				color:#F5B754;
+				font-size:1.1vw;
+				line-height:2.5;
+				margin-bottom:50px;
+				margin-top:-15px;
+			}
+			ul
+			{
+				list-style:none;
+				margin-right:-2%;
+			}
+			li
+			{
+				display:inline-block;
+			}
+			nav .navi,.active
+			{
+				display:block;
+				padding-left:10px;
+				padding-right:10px;
+				text-decoration:none;
+				color:#F5B754;
+				font-size:1vw;
+				letter-spacing:1px;
+				font-weight:700;
+				text-transform: uppercase;
+				position:relative;
+			}
+			.navi:hover,.active
+			{
+				transition:0.5s;
+				color:#F5B754;
+			}
+			.navi:after,.active:after
+			{
+				transition:0.5s;
+				position:absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				content:'.';
+				width:0%;
+				color:transparent;
+				background:#F5B754;
+				height:3px;
+			}
+			.active:after
+			{
+				width:80%;
+			}
+			.navi:hover:after
+			{
+				width:80%;
+			}
+			.adjust
+			{
+				padding-right:100px;
+			}
+			.tabl
+			{
+				margin:auto;
+				text-align:center;
+				width:70%;
+				height:38%;
+				margin-top:4%;
+				border-collapse:separate;
+			}
+			.wid
+			{
+				position: relative;
+			}
+			.vehicle
+			{
+				position:absolute;
+				top: 90%;
+  				left: 54%;
+  				transform: translate(-50%, -50%);
+			}
+			.servtext
+			{
+				background-image:url("images/service.jpg");
+				background-size:100% 100%;
+				box-sizing:border-box;
+				padding:50px;
+			}
+			
+			.readmore
+			{
+				color:#00afe5;
+				font-size:1.1vw;
+				text-align:center;
+				transition-duration: 0.4s;
+			}
+			.readmore:hover
+			{
+				color:#006b8b;
+			}
+			.dropdown .dropbtn
+            {  
+				position:relative;
+            }
+            .dropdown-content 
+            {
+
+                margin:0px 0px 0 -60px;
+                display: none;
+                position: absolute;
+                background-color: #1b1b1b;
+                max-width: 250px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index:1;
+            }
+            .dropdown-content a
+            {
+                color: rgb(136, 136, 136);
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown:hover
+            {
+                background-color: rgba(85, 85, 85, 0);
+                color:#00afe5;
+            }
+            .dropdown-content a:hover 
+            {
+                color: #F5B754;
+            }
+            .dropdown:hover .dropdown-content 
+            {
+                display: block;
+            }
+			.logo1,.logo1 img{
+				display:none;
+			}
+			@media only screen and (max-width:900px) 
+			{
+				.slides{
+					top:0;
+				}
+				.call img{
+					padding-left:37%;
+					float:left;
+					padding-top:4px;
+				}
+				.call font{
+					padding-right:35%;
+					font-size:17px;
+				}
+				.mail img{
+					padding-left:34%;
+					float:left;
+					padding-top:7px;
+				} 
+				.mail font{
+					padding-right:32%;
+				}
+				.logo1,.logo1 img{
+					display:block;
+					position:relative;
+				}
+				.up{
+					height:230px;
+				}
+				.logo{
+					display:none;
+				}
+				header{
+					background-repeat:no-repeat;
+					background-position:-300px 0px;
+					height:70%;
+				}
+				.head{
+					padding-top:30px;
+				}
+				.head hr{
+					display:none;
+				}
+				.up nav{
+					text-align:center;
+				}
+				nav .navi,.active{
+					font-size:80%;
+					display:block;	
+				}
+				.head h1{
+					text-align:center;
+					font-size:25px;
+				}
+				.head svg{a
+					text-align:center;
+					height:5%;
+					width:10%;
+				}
+				.head font{
+					text-align:center;
+					font-size:10px;
+				}
+				.main img{
+					width:60%;
+				}
+				.main h2{
+					font-size:100%;
+				}
+				.widget h3{
+					font-size:100%;
+				}
+				.widget p{
+					font-size:80%;
+				}
+				footer img{
+					width:5%;
+				}
+				input[type=submit]{
+					font-size:50%;
+				}
+				.copyright font{
+					font-size:90%;
+				}
+			}
+			@media only screen and (max-width:720px)
+			{
+				.up{
+					height:200px;
+				}
+				header{
+					height:60%;
+				}
+				.call img{
+					padding-left:37%;
+					float:left;
+					padding-top:3px;
+				}
+				.call font{
+					padding-right:35%;
+					font-size:13px;
+				}
+				.mail img{
+					padding-left:34%;
+					float:left;
+					padding-top:7px;
+				} 
+				.mail font{
+					padding-right:30%;
+					font-size:13px;
+				}
+				nav .navi,.active{
+					font-size:49%;
+				}
+				input[type=submit]{
+					padding:1vw;
+				}
+				.main img{
+					width:70%;
+				}
+				.main h2{
+					font-size:65%;
+				}
+				.widget{
+					margin:auto;
+				}
+				.widget h3{
+					font-size:100%;
+				}
+				.widget p{
+					font-size:60%;
+				}
+				.copyright font{
+					
+					margin:auto;
+					font-size:80%;
+				}
+			} 
